@@ -28,4 +28,67 @@
         android:onClick="onLionGateClick2"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickRich"
+        android:text="Richmond" />
+
+    <Button
+        android:id="@+id/Buckingham"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickKing"
+        android:text="King Henry"
+        android:layout_below="@+id/button12"
+        android:layout_alignStart="@+id/button12" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickPort"
+        android:text="Portland"
+        android:layout_below="@+id/Buckingham"
+        android:layout_alignStart="@+id/Buckingham" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button14"
+        android:layout_centerHorizontal="true"
+        android:onClick="OnClickPark"
+        android:text="Park" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button15"
+        android:layout_below="@+id/button15"
+        android:onClick="onClickMill"
+        android:text="Milldam" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/Buckingham"
+        android:layout_below="@+id/button16"
+        android:onClick="onClickBuck"
+        android:text="Buckingham" />
+
+    <Button
+        android:id="@+id/Anglesea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickAngle"
+        android:text="Anglesea"
+        android:layout_below="@+id/button17"
+        android:layout_alignEnd="@+id/button14" />
 </RelativeLayout>
